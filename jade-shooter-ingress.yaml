@@ -4,7 +4,7 @@ metadata:
   name: jade-shooter
 spec:
   rules:
-  - host: jade-shooter.rancher.localhost
+  - host: game.is.simple
     http:
       paths:
       - pathType: Prefix
@@ -16,4 +16,4 @@ spec:
               number: 8080
   tls:
   - hosts:
-    - jade-shooter.rancher.localhost
+    - game.is.simple
